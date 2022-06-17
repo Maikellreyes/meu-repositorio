@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img-menu{
+  width: 60px;
+ padding: 0px;
+ border-radius: 50%; 
+ align-items: center;
+float: left;
+}
+.header{
+  margin: -17px;
+  text-align: center;
+  height: 300px;
+  padding: 50px;
+  background-image: url(https://fondosmil.com/fondo/54342.jpg);
+}
+.avatar{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.user-name{
+  font-size: 38px;
+  margin-top: 14px;
+  color: white;
+}
+.social{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+.social li{
+display: inline-block;
+margin: 5px;
+}
+a{
+  text-decoration: none;
+  color: rgb(236, 226, 226);
+}
+a:hover{
+  color: rgb(39, 38, 38);
+}
+
+.computador1{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#menu-h{
+  background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul {
+  max-width: 800px;
+  list-style: none;
+  padding: 0;
+}
+
+#menu-h ul li {
+  display: inline;
+}
+
+#menu-h ul li a {
+  color: #FFF;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background.4s;
+}
+
+#menu-h ul li a:hover {
+  background-color: rgb(38, 24, 233);
+}
+
+#menu-h ul li:last-child a {
+  float: left;
+  background-color: rgb(33, 18, 116);
+}
+.container{
+  margin: 20px;
+  background-color: rgb(232, 235, 240);
+  border: 3px  solid#0000;
+  padding: 15px;
+  display: grid;
+  grid-template-columns:auto auto auto;
+  gap: 10px;
+}
+.container div{
+  
+  border: 1px solid #000000;
+  grid-template-columns: auto;
+}
+
+.text{
+  display: table;
+  text-align: center;
+  margin: auto;
+  font-size: larger;
+  background: #2B2C4B;
+}
+.text p{
+  display: table;
+  margin: auto;
+  padding: 70px;
+  background: rgb(240, 236, 236);
+  height: auto; 
+  width:auto;
+  font-size:larger;
+
+}
+.text h2{
+  color: white;
+}
+.items-2{
+  background-color: rgb(219, 219, 240);
+  grid-column-start: auto;
+  grid-column-end: auto;
+}
+.items-2 img{
+  width: 100%;
+  height: 50%;
+  border-width: 3px;
+  border-style:double;
+  position: relative;
+  left: 1px;
+  right: 1px;
+  
+  }
+  .items-2 h3{
+    text-align: center;
+  }
+.items-3{
+  background-color: rgb(255, 255, 255);
+  grid-column-start: 1;
+  grid-column-end: 2;
+  height: 200px;
+}
+
+.text-3{
+
+  position: relative;
+  left: 50%;
+  top: -45%;
+}
+
+.items-4{
+  background-color: rgb(253, 250, 250);
+  grid-column-start: 2;
+  grid-column-end: 4;
+ 
+}
+.items-5{
+  background-color: rgb(12, 6, 100);
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.items-5{
+  color:white ;
+}
+
+.carousel{
+  width: 210%;
+ height: 100%;
+  margin: auto;
+  border: 5px solid navy;
+  transition: cubic-bezier(0.19, 1, 0.22, 1);
+}
